@@ -1,0 +1,86 @@
+[
+  {
+    "jats": "../joss-papers-pmc/joss-6-03860/10.21105.joss.03860.jats",
+    "missing": "media/flowtorch_components_plain.pdf"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-6-03860/10.21105.joss.03860.jats",
+    "missing": "media/dmd_modes_airfoil_cp.pdf"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-6-03860/10.21105.joss.03860.jats",
+    "missing": "media/cnm_cluster_transition.pdf"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06711/10.21105.joss.06711.jats",
+    "missing": "./images/RoughnessExample.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-7-04622/10.21105.joss.04622.jats",
+    "missing": "media/figures/software_illustration.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-7-04622/10.21105.joss.04622.jats",
+    "missing": "media/figures/code_snippet.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06598/10.21105.joss.06598.jats",
+    "missing": "./../docs/images/BitPackingTable.png?raw=true"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06598/10.21105.joss.06598.jats",
+    "missing": "./../docs/images/ExampleEncoding.png?raw=true"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06802/10.21105.joss.06802.jats",
+    "missing": "../assets/images/overview_2.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06802/10.21105.joss.06802.jats",
+    "missing": "../assets/images/pipelines.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06802/10.21105.joss.06802.jats",
+    "missing": "../assets/images/augmentation_pipeline.svg"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06802/10.21105.joss.06802.jats",
+    "missing": "../assets/images/applications.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-05756/10.21105.joss.05756.jats",
+    "missing": "media/Figure%201.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-05756/10.21105.joss.05756.jats",
+    "missing": "media/Figure%202.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-8-05403/10.21105.joss.05403.jats",
+    "missing": "media/graphics/espnet-SE%2B%2B.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06930/10.21105.joss.06930.jats",
+    "missing": "https://github.com/mnets/pymnet/blob/publication/paper/figs/l2_n3.png?raw=true"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06930/10.21105.joss.06930.jats",
+    "missing": "https://github.com/mnets/pymnet/blob/publication/paper/figs/cites-trades_commercial_live-meat.png?raw=true"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-05854/10.21105.joss.05854.jats",
+    "missing": "media/physiolabxr%20teaser.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-05854/10.21105.joss.05854.jats",
+    "missing": "media/scripting%20example.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-05854/10.21105.joss.05854.jats",
+    "missing": "media/PhysioLabXR%20Sequence%20Diagram.png"
+  },
+  {
+    "jats": "../joss-papers-pmc/joss-9-06645/10.21105.joss.06645.jats",
+    "missing": "../graphdb-visual.png"
+  }
+]
