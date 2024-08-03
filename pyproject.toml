@@ -1,0 +1,27 @@
+[project]
+name = "joss-migrate-pmc"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "sneakers-the-rat", email = "sneakers-the-rat@protonmail.com"},
+]
+dependencies = [
+    "tqdm>=4.66.4",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.2.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "WTFPL"}
+
+[project.scripts]
+joss-migrate = "joss_migrate_pmc.main:main"
+
+[tool.pdm]
+distribution = true
+
+
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
