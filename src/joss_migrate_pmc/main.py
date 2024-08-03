@@ -4,6 +4,8 @@ from dataclasses import asdict
 from pprint import pprint
 import sys
 import pdb
+import json
+from datetime import datetime
 
 from tqdm import tqdm
 
@@ -32,6 +34,12 @@ def make_parser() -> ArgumentParser:
     )
     return parser
 
+def save_results(results: list[Result], step: int) -> None:
+    filename = f"results/step_{step}_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
+    results_json = [asdict(r) for r in results]
+    with open(filename, 'w') as f:
+        json.dump(results_json, f, indent=2, default=lambda x: str(x))
+
 def main():
     parser = make_parser()
     args = parser.parse_args()
@@ -40,14 +48,17 @@ def main():
         results = apply_step(args.step, args.repo)
     except Exception as e:
         pdb.post_mortem()
+        sys.exit(1)
 
     errors = [r for r in results if not r.success]
 
     if len(errors) == 0:
         print(f"Step {args.step} applied successfully to {args.repo} :)")
+        save_results(results, args.step)
         sys.exit(0)
     else:
         print(f"Error applying step {args.step} to {args.repo}:\n")
+        save_results(results, args.step)
         for error in errors:
             pprint(asdict(error))
         sys.exit(1)
